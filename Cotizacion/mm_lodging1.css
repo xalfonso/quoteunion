@@ -1,0 +1,143 @@
+/* Global Styles */
+
+body {
+	margin:0px;
+	}
+	
+td {
+	font:11px arial;
+	color:#333333;
+	}
+	
+a {
+	color: #cc0000;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+a:hover {
+	color: #990000;
+	text-decoration:underline;
+	}
+	
+/* ID Styles */
+	
+#navigation a {
+	font:10px arial;
+	color: #336666;
+	text-decoration:none;
+	letter-spacing:.1em;
+	}
+	
+#navigation a:hover {
+	color: #993300;
+	text-decoration:underline;
+	}
+
+#padding {
+	padding:20px 5px 20px 5px;
+	}
+	
+#weekdays th {
+	font:10px arial;
+	color: #ffffff;
+	letter-spacing:.2em;
+	}
+
+#calheader td {
+	font-weight:bold;
+	}
+
+/* Class Styles */
+
+.logo {
+	font:18px times new roman;
+	color: #333300;
+	letter-spacing:.4em;
+	font-weight:bold;
+	}
+
+.sidebarText {
+	font:12px georgia;
+	color: #336666;
+	line-height:18px;
+	}
+	
+.bodyText {
+	font:11px arial;
+	line-height:24px;
+	color:#333333;
+	}
+	
+.pageName {
+	font:20px georgia;
+	color: #CC3300;
+	letter-spacing:.1em;
+	line-height:26px;
+	}
+	
+.subHeader {
+	font:14px georgia;
+	color: #669999;
+	font-weight:bold;
+	line-height:20px;
+	letter-spacing:.1em;
+	}
+	
+.navText {
+	font:10px arial;
+	color: #333300;
+	letter-spacing:.1em;
+	}
+	
+.calendarText {
+	font:11px arial;
+	line-height:14px;
+	color:#333333;
+	}
+	
+.smallText {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #003300;
+	}
+
+/* estilos para las tablas que muestran datos (no las listas) */
+table.tabla_datos {
+	border: 1px #000 solid;
+	border-collapse: separate;
+	margin: 0px;
+	margin-bottom: 7px;
+	padding: 0px;
+	
+	
+}
+
+/* estilos para las celdas (no alternadas) */
+table.tabla_datos td {
+	text-align: left;
+	background-color: #FFFFFF;
+	padding: 2px;
+	
+	
+}
+
+/* celdas de encabezados */
+table.tabla_datos th,table.tabla_datos th.header,table.tabla_datos td.header,table.tabla_datos tr.alt td.header {
+	text-align: center;
+	background-color: #C3DAF9;
+	padding-right: 7px;
+	padding-left: 7px;
+	vertical-align: top;
+	color: #333333;
+	font-weight: bold;
+	
+}
+
+/* celdas alternadas que no son encabezados */
+table.tabla_datos tr.alt td.null,table.tabla_datos tr.alt td {
+	background-color: #FFFFFF;
+}
+	
+
+	
+	
